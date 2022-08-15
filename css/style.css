@@ -19,8 +19,9 @@ body {
   align-items: center;
   height: 100vh;
   flex-direction: column;
-  background-color: hsl(185, 75%, 39%);
-  position: relative;
+  background: url(../images/bg-pattern-top.svg), url(../images/bg-pattern-bottom.svg), hsl(185, 75%, 39%);
+  background-repeat: no-repeat;
+  background-position: bottom 50vh left 5vh, top 40vh right 5vw;
   font-family: "Kumbh Sans";
 }
 
